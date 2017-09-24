@@ -1,0 +1,10 @@
+.location{
+  width: auto;
+  height: 400px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#map {
+  width: auto;
+  height: 400px;
+}

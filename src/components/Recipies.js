@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import '../css/recipies.css';
 
 class Recipies extends Component{
 	render(){
 		return(
-			<div>
+			<div className="recipies" id="chef">
 				
 			</div>
 			);

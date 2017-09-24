@@ -1,10 +1,3 @@
-.Home{
-  background-image: url("../icons/bg-pic.png");
-  width: auto;
-  height: 550px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
 a{
 	color:initial;
 }
@@ -59,136 +52,12 @@ a{
 	text-decoration: none;
 }
 #stamp{
-	position: absolute;
-	top: 50px;
-	left:200px;
+  position: absolute;
+  top: 90px;
+  left:260px;
 }
 .Tag{
 	position: absolute;
 	top: 200px;
 	left:200px;	
-}
-.Community{
-  background-color:#BBB6B6;
-  width: auto;
-  height: 550px;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-.ourMenu{
-  background-color:#white;
-  width: auto;
-  height: 550px;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-#center{
- width:0;
-  height:550px;
-  color:#BCB6B6;
-  border-style: solid;
-  position:absolute;
-  left: 50%; 
-}
-#left{
- width:0;
-  height:550px;
-  color:#BCB6B6;
-  border-style: solid;
-  position:absolute;
-  left: 25%; 
-}
-#right{
-  width:0;
-  height:550px;
-  color:#BCB6B6;
-  border-style: solid;
-  position:absolute;
-  left: 75%; 
-}
-.menuHeader{
-  text-decoration: line-through;
-  text-decoration-color: #F8BBBB;
-  font-size: 28px;
-  margin-bottom:0px;
-  font-family: "Gill Sans";
-  font-weight: bold;
-  position: absolute;
-  left: 43%;
-}
-#knowMore{
-   background-color: #F8BBBB;
-   border: none;
-   color: black;
-   text-align: center;
-   font-size: 14px;
-   font-weight: bold;
-   padding: 5px 10px;
-   margin-top: 0px;
-   position: relative;
-   left: 45%;
-   top:65px;
-}
-.menuCol4{
-  width:200px;
-  height:400px;
-  position:absolute;
-  left: 75%;
-}
-.menuCol3{
-  left:50%;
-}
-.menuCol2{
-  left:25%;
-}
-.menuCol1{
-  left:0%;
-}
-.d1{
-  text-decoration: none;
-  left:0%;
-}
-.itemD1{
-  width:200px;
-  height: 100px;
-  position: absolute;
-  top: 25%;
-}
-.itemD2{
-  top: 50%;
-}
-.itemD3{
-  top: 75%;
-}
-.itemName{
-  position: absolute;
-  padding-top: 0px;
-  margin-top: 0px;
-  left: 15px;
-}
-#animate {
-  animation: moveUP 5s ease;
-  animation-fill-mode: forwards;
-}
-
-@keyframes moveUP {
-  from {
-     transform: translateY(300px);
-   }
-  to {
-     transform: translateY(-100px);
-  }
-}
-#animateDown {
-  animation: moveDown 5s ease;
-  animation-fill-mode: forwards;
-}
-
-@keyframes moveDown {
-  from {
-     transform: translateY(300px);
-   }
-  to {
-     transform: translateY(100px);
-  }
 }
