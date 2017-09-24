@@ -1,0 +1,36 @@
+.home{
+  background-image: url("../icons/bg-pic.png");
+  width: auto;
+  height: 100vh;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#home1 {
+  position: relative;
+  text-align: center;
+  color:white;
+  top: 156px;
+  font-size: 45px;
+  left: 320px;
+  margin: 0px;
+}
+
+#home2 {
+position: relative;
+text-align: center;
+color:white;
+top: 158px;
+font-size: 65px;
+ left: 320px;
+ margin: 0px;
+}
+
+#home3 {
+position: relative;
+text-align: center;
+color:white;
+top: 160px;
+font-size: 20px;
+left: 300px;
+margin: 0px;
+}

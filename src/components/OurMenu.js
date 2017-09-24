@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/navigation.css';
+import '../css/ourMenu.css';
 
 const MenuCol=(props)=>{
 	return(
@@ -47,7 +47,7 @@ handleScroll=(event)=> {
 }
 	render(){
 		return(
-			<div className="ourMenu" id="123">
+			<div className="ourMenu" id="menu">
 				<div id="center"></div>
 				<div id="left"></div>
 				<div id="right"></div>

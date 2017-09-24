@@ -4,19 +4,19 @@ import logo  from '../icons/logo.png';
 const Menu = () =>(
  <div className="Menu">
 	<div>
-		<a>
-          <img id="logo" src={logo} alt="CompanyLogo" />
-        </a>
+  <a>
+        <img id="logo" src={logo} alt="CompanyLogo" />
+      </a>
 	</div>
 	<div className="LeftMenu">
 		<a href="">ABOUT</a><span>		</span>
-		<a href="">COMMUNITY</a><span>		</span>
-		<a href="">LOCATION</a><span>		</span>
-		<a href="#123">OUR MENU</a><span>		</span>
-		<a href="">RECIPIES</a><span>		</span>
+		<a href="#commPage">COMMUNITY</a><span>		</span>
+		<a href="#map">LOCATION</a><span>		</span>
+		<a href="#menu">OUR MENU</a><span>		</span>
+		<a href="#chef">RECIPIES</a><span>		</span>
 	</div>
 	<div className="RightMenu">
-		<a href="">CONTACT</a><span>		</span>	
+		<a href="#contact">CONTACT</a><span>		</span>
 		<a href="">LOGIN</a><span>		</span>
 	</div>
  </div>
