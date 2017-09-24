@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/location.css';
+import '../css/navigation.css';
 
 class Location extends Component{
 	render(){

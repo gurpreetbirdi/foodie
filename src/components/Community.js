@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/community.css';
+import '../css/navigation.css';
 
 class Community extends Component{
 	render(){

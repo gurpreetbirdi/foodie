@@ -17,25 +17,7 @@
                 height: 500px;
             }
         </style>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADb9zLfnTvyZaYCjxyGn9t_eN6rB-at1Q"></script>
-    <script type="text/javascript">
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                var mapOptions = {
-                    zoom: 11,
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
-                    styles: [{"featureType":"all","elementType":"geometry.fill","stylers":[{"lightness":"-100"},{"color":"#ffdac9"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffcab1"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ffcab1"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#92e1dd"}]}]
-                };
-                var mapElement = document.getElementById('map');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
-                    map: map,
-                    title: 'Snazzy!'
-                });
-            }
-        </script>
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

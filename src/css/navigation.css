@@ -1,8 +1,12 @@
 .Home{
   background-image: url("../icons/bg-pic.png");
-  background-repeat: no-repeat;
   width: auto;
   height: 550px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+a{
+	color:initial;
 }
 
 #logo{
@@ -53,4 +57,60 @@
 
 .RequestInfo a{
 	text-decoration: none;
+}
+#stamp{
+	position: absolute;
+	top: 50px;
+	left:200px;
+}
+.Tag{
+	position: absolute;
+	top: 200px;
+	left:200px;	
+}
+.Community{
+  background-color:#BBB6B6;
+  width: auto;
+  height: 550px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.ourMenu{
+  background-color:#996262;
+  width: auto;
+  height: 550px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.menu1{
+  width:100px;
+  height:300px;
+  color:blue;
+  border-style: solid;
+  position:absolute;
+  left: 50px;
+}
+.menu2{
+  width:100px;
+  height:300px;
+  color:blue;
+  border-style: solid;
+  position:absolute;
+  left: 200px;
+}
+.menu3{
+  width:100px;
+  height:300px;
+  color:blue;
+  border-style: solid;
+  position:absolute;
+  left: 350px;
+}
+.menu4{
+  width:100px;
+  height:300px;
+  color:blue;
+  border-style: solid;
+  position:absolute;
+  left: 500px;
 }

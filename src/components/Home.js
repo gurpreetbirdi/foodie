@@ -8,12 +8,12 @@ class Home extends Component{
 		return(
 		 <div className = "Home">
 		 	<Navigation />
-		 		<img id="stamp" src={stamp} alt="CompanyStamp" />
-	<div className="Tag">
-		<p>THE BEST FOODIE</p>
-		<p>EXPERIENCE</p>
-		<p>NOW IN LONDON</p> 
-	</div>
+		 	<img id="stamp" src={stamp} alt="CompanyStamp" />
+			<div className="Tag">
+				<p>THE BEST FOODIE</p>
+				<p>EXPERIENCE</p>
+				<p>NOW IN LONDON</p> 
+			</div>
 		 </div>
 			);
 	}
