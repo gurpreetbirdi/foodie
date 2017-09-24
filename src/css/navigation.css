@@ -1,7 +1,7 @@
 .Home{
   background-image: url("../icons/bg-pic.png");
   width: auto;
-  height: 550px;
+  height: 100vh;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -71,20 +71,21 @@ a{
 .Community{
   background-color:#BBB6B6;
   width: auto;
-  height: 550px;
+  height: 100vh;
   padding-top: 0px;
   margin-top: 0px;
 }
 .ourMenu{
-  background-color:#white;
+  /*background-color: white;*/
   width: auto;
-  height: 550px;
+  height: 100vh;
   padding-top: 0px;
   margin-top: 0px;
+  position: relative;
 }
 #center{
  width:0;
-  height:550px;
+  height:100vh;
   color:#BCB6B6;
   border-style: solid;
   position:absolute;
@@ -92,7 +93,7 @@ a{
 }
 #left{
  width:0;
-  height:550px;
+  height:100vh;
   color:#BCB6B6;
   border-style: solid;
   position:absolute;
@@ -100,7 +101,7 @@ a{
 }
 #right{
   width:0;
-  height:550px;
+  height:100vh;
   color:#BCB6B6;
   border-style: solid;
   position:absolute;
@@ -140,9 +141,13 @@ a{
 }
 .menuCol2{
   left:25%;
+  transform: translateY(-200px);
 }
 .menuCol1{
   left:0%;
+  transform: translateY(300px);
+  /*position: absolute;*/
+    /*top: -100%;*/
 }
 .d1{
   text-decoration: none;
@@ -153,6 +158,7 @@ a{
   height: 100px;
   position: absolute;
   top: 25%;
+  margin-left: 40px;
 }
 .itemD2{
   top: 50%;
@@ -161,34 +167,67 @@ a{
   top: 75%;
 }
 .itemName{
-  position: absolute;
+  /*position: absolute;*/
   padding-top: 0px;
   margin-top: 0px;
-  left: 15px;
+  /*left: 15px;*/
 }
-#animate {
-  animation: moveUP 5s ease;
+#animate.menuCol1 {
+  animation: moveUP 3s ease;
   animation-fill-mode: forwards;
+  /*top: 0%;*/
 }
-
+#animate.menuCol3 {
+  animation: moveUP1 3s ease;
+  animation-fill-mode: forwards;
+  /*top: 0%;*/
+}
 @keyframes moveUP {
-  from {
-     transform: translateY(300px);
-   }
-  to {
-     transform: translateY(-100px);
-  }
-}
-#animateDown {
-  animation: moveDown 5s ease;
-  animation-fill-mode: forwards;
-}
-
-@keyframes moveDown {
   from {
      transform: translateY(300px);
    }
   to {
      transform: translateY(100px);
   }
+}
+
+@keyframes moveUP1 {
+  from {
+     transform: translateY(300px);
+   }
+  to {
+     transform: translateY(150px);
+  }
+}
+#animateDown.menuCol4L {
+  animation: moveDown 3s ease;
+  animation-fill-mode: forwards;
+}
+#animateDown {
+  animation: moveDown1 3s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveDown {
+  from {
+     transform: translateY(-200px);
+   }
+  to {
+     transform: translateY(100px);
+  }
+}
+
+
+@keyframes moveDown1 {
+  from {
+     transform: translateY(-200px);
+   }
+  to {
+     transform: translateY(200px);
+  }
+}
+
+.ourMenu button {
+    border: 2px solid #F8BBBB;
+    background: transparent;
 }

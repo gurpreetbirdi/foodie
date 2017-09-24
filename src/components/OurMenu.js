@@ -37,10 +37,13 @@ class OurMenu extends Component{
 }
 
 handleScroll=(event)=> {
-	this.setState(prevState=>{
-		console.log(prevState.menuColID);
-		return{menuColIdUp:'animate',menuColIdDown:'animateDown'};
-	});
+	console.log("doc", document.documentElement.scrollTop, "home", document.querySelector('.Home').offsetHeight,
+		"comm", document.querySelector('.Community').offsetHeight);
+	if (document.documentElement.scrollTop >= document.querySelector('.Home').offsetHeight + document.querySelector('.Community').offsetHeight) {
+		this.setState(prevState=>{
+			return{menuColIdUp:'animate',menuColIdDown:'animateDown'};
+		});
+	}
 }
 	render(){
 		return(
@@ -50,7 +53,7 @@ handleScroll=(event)=> {
 				<div id="right"></div>
 				<p className="menuHeader">OUR MENU</p>
 				<button id="knowMore">KNOW MORE</button>
-				<MenuCol className="menuCol4" id={this.state.menuColIdDown} />
+				<MenuCol className="menuCol4 menuCol4L" id={this.state.menuColIdDown} />
 				<MenuCol className="menuCol4 menuCol3" id={this.state.menuColIdUp} />
 				<MenuCol className="menuCol4 menuCol2" id={this.state.menuColIdDown} />
 				<MenuCol className="menuCol4 menuCol1" id={this.state.menuColIdUp} />
