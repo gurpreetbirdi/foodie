@@ -37,9 +37,10 @@ class OurMenu extends Component{
 }
 
 handleScroll=(event)=> {
-	console.log("doc", document.documentElement.scrollTop, "home", document.querySelector('.Home').offsetHeight,
-		"comm", document.querySelector('.Community').offsetHeight);
-	if (document.documentElement.scrollTop >= document.querySelector('.Home').offsetHeight + document.querySelector('.Community').offsetHeight) {
+	if (document.documentElement.scrollTop >= 
+		document.querySelector('.home').offsetHeight + 
+		document.querySelector('.location').offsetHeight + 
+		document.querySelector('.community').offsetHeight) {
 		this.setState(prevState=>{
 			return{menuColIdUp:'animate',menuColIdDown:'animateDown'};
 		});
