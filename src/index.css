@@ -3,6 +3,20 @@
 	padding: 0;
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./css/fonts/DIN_Condensed_Bold.ttf);
+}
+
 html,
 body, 
 #root {
@@ -10,6 +24,7 @@ body,
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: myFont;
 }
 
 p{
