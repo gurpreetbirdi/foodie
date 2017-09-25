@@ -1,11 +1,11 @@
-.cpllaborate{
+.collaborate{
   background-color:yellow;
   width: auto;
-  height: 100vh;
+  height: 70vh;
   padding-top: 0px;
   margin-top: 0px;
 }
-.collaborate{
+.message{
   position: absolute;
   width: 50%;
   background-color: #F8BBBB;
@@ -26,15 +26,6 @@ height: 100%;
  .form1{
 background-color:#F8BBBB;
 top : 100px;
-height: 100%;
 width : 50%;
-position: absolute;
-}
-.form2{
-background-color:#F8BBBB;
-top : 100px;
-height: 100%;
-width : 50%;
-right : 0px;
 position: absolute;
 }

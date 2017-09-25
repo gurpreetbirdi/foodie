@@ -28,11 +28,21 @@ a{
 	padding:10px; 
 	font-size: 16px;
 }
-
+.LeftMenu li{
+	padding: 15px;
+}
+.LeftMenu li{
+	display: inline;
+}
 .LeftMenu a{
 	text-decoration: none;
 }
-
+.RightMenu li{
+	padding: 15px;
+}
+.RightMenu li{
+	display: inline;
+}
 .RightMenu a{
 	text-decoration: none;
 }
@@ -48,6 +58,7 @@ a{
 
 .RequestInfo a{
 	text-decoration: none;
+	padding: 10px;
 }
 #stamp{
   position: absolute;

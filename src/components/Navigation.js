@@ -4,20 +4,25 @@ import logo  from '../icons/logo.png';
 const Menu = () =>(
  <div className="Menu">
 	<div>
-  <a>
+  	  <a>
         <img id="logo" src={logo} alt="CompanyLogo" />
       </a>
 	</div>
 	<div className="LeftMenu">
-		<a href="">ABOUT</a><span>		</span>
-		<a href="#commPage">COMMUNITY</a><span>		</span>
-		<a href="#map">LOCATION</a><span>		</span>
-		<a href="#menu">OUR MENU</a><span>		</span>
-		<a href="#chef">RECIPIES</a><span>		</span>
+		<ul>
+			<li><a href="">ABOUT</a></li>
+			<li><a href="#commPage">COMMUNITY</a></li>
+			<li><a href="#map">LOCATION</a></li>
+			<li><a href="#menu">OUR MENU</a></li>
+			<li><a href="#chef">RECIPIES</a></li>
+		</ul>
 	</div>
 	<div className="RightMenu">
-		<a href="#contact">CONTACT</a><span>		</span>
-		<a href="">LOGIN</a><span>		</span>
+		<ul>
+			<li><a href="#contact">CONTACT</a></li>
+			<li><a href="">LOGIN</a></li>
+		</ul>
+		
 	</div>
  </div>
 	)

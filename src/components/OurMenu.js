@@ -1,25 +1,25 @@
 import React, {Component} from 'react';
 import '../css/ourMenu.css';
 
+const Item=(props)=>{
+	return(
+		<div>
+			<div className={props.className}>
+				<h5 className="itemName">ICECREAM</h5>
+				<p> Lorem ipsum dolor sit amet salerma pet sea </p>
+				<button>$3.95</button>
+			</div>
+		</div>
+		);
+}
+
 const MenuCol=(props)=>{
 	return(
 		<div className={props.className} id={props.id}>
 					<p className="menuHeader d1">DESSERTS</p>
-					<div className="itemD1">
-						<h5 className="itemName">ICECREAM</h5>
-						<p> Lorem ipsum dolor sit amet salerma pet sea </p>
-						<button>$3.95</button>
-					</div>
-					<div className="itemD1 itemD2">
-						<h5 className="itemName">TIRAMISU</h5>
-						<p> Lorem ipsum dolor sit amet salerma pet sea </p>
-						<button>$3.95</button>
-					</div>
-					<div className="itemD1 itemD3">
-						<h5 className="itemName">CHOCOLATE BROWNIE</h5>
-						<p> Lorem ipsum dolor sit amet salerma pet sea </p>
-						<button>$3.95</button>
-					</div>
+					<Item className="itemD1"/>
+					<Item className="itemD1 itemD2"/>
+					<Item className="itemD1 itemD3"/>
 		</div>
 		);
 }
