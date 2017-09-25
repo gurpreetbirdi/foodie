@@ -25,6 +25,7 @@ componentDidMount(){
                 // Create the Google Map using our element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
                 // Let's also add a marker while we're at it
+                // eslint-disable-next-line
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(51.5219, -0.0863),
                     map: map,

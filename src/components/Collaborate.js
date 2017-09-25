@@ -13,7 +13,7 @@ class Collaborate extends Component{
 						<p className="f4"> the tunnel was exclusively used by dual-mode buses that ran on overhead wires; they were later replaced with hybrid electric buses using batteries within the tunnel.</p>
 					</div>
 					<div className="partition">
-					<img src={bgDetail} />
+					<img src={bgDetail} alt="bgDetail"/>
 					<div className = "form1">
 					<form >
 		  <p>
